@@ -1,8 +1,15 @@
+// REDIRECT FILE
+// SHOULD NOT BE USED
+// WHY WAS IT EVEN WRITTEN???
+// GOOD QUESTION
+// AS A BAILOUT PERHAPS
+// CARRY ON AND KILL ME NOW
+
 const express = require('express');
 
 const router = express.Router();
 
-const Link = require('../model/Url');
+const Link = require('../models/LinkModel');
 
 router.get('/:redirect', async (req, res) => {
     try {
